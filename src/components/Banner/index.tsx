@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import styles from "./styles.module.scss";
 
-export default function Header() {
+export default function Banner() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
