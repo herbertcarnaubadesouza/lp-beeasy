@@ -1,0 +1,178 @@
+.container {
+  background: #1e1c1d;
+  padding-inline: 20px;
+  padding-top: 37px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 282px;
+    height: 282px;
+    background-image: url("/elipse.svg");
+    background-size: cover;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 138.052px;
+    height: 118px;
+    margin-top: 10px;
+    background-image: url("/bolinhas.svg");
+    background-size: cover;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  button {
+    border-radius: 12.166px 1.217px;
+    border: 0.608px solid var(--brand-gold-light, #fff301);
+    box-shadow: 0px 3.64977px 9.12442px 0px rgba(224, 167, 48, 0.3);
+    width: 171px;
+    height: 34px;
+    text-transform: uppercase;
+    font-family: Syne;
+    font-size: 0.625rem;
+    font-weight: 800;
+    line-height: 0.74519rem;
+    color: var(--brand-gold-light, #fff301);
+    cursor: pointer;
+    background: none;
+  }
+}
+
+.middleContent {
+  h1 {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Syne;
+    font-size: 2.00681rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+    margin-top: 64px;
+
+    span {
+      background-image: linear-gradient(
+        45deg,
+        var(--yellow-light),
+        var(--yellow-light),
+        var(--yellow-dark),
+        var(--yellow-light),
+        var(--yellow-medium)
+      );
+      background-size: 400% 200%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      animation: textura 7.4s cubic-bezier(0.2, 0.5, 0.9, 0.6) 2s infinite
+        normal none running;
+      display: inline-block; /* This is required for the background to apply correctly */
+    }
+  }
+
+  p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-top: 32px;
+    margin-bottom: 56px;
+  }
+
+  button {
+    width: 100%;
+    border-radius: 14.927px 1.493px;
+    padding-block: 14px;
+    background-image: linear-gradient(
+      45deg,
+      var(--yellow-light),
+      var(--yellow-medium),
+      var(--yellow-dark),
+      var(--yellow-light),
+      var(--yellow-medium)
+    );
+    background-size: 400% 200%;
+    box-shadow: 0px 4.47817px 11.19543px 0px rgba(224, 167, 48, 0.3);
+    color: var(--brand-black, #1c1c1c);
+    font-family: Syne;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 0.91431rem;
+    text-transform: uppercase;
+    border: none;
+    animation: textura 7.4s cubic-bezier(0.2, 0.5, 0.9, 0.6) 2s infinite normal
+      none running;
+    transition: all 10.8s cubic-bezier(0.55, 0.1, 0.47, 0.94);
+  }
+
+  button:hover,
+  button:focus {
+    filter: brightness(0.9);
+  }
+}
+
+.depoimentsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 56px;
+
+  p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6875rem;
+  }
+
+  .rowDepoiments {
+    display: flex;
+  }
+  img {
+    object-fit: contain;
+    width: 141.285px;
+    height: 49.143px;
+  }
+
+  .numberCouter {
+    background: #fe0098;
+    width: 49.143px;
+    height: 49.143px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 0.76788rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.29575rem;
+    letter-spacing: -0.01919rem;
+    margin-left: -20px;
+  }
+}
+
+@keyframes textura {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
