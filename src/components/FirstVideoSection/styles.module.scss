@@ -1,0 +1,137 @@
+.container {
+  background: #1e1c1d;
+  padding-inline: 20px;
+  position: relative;
+  padding-bottom: 35px;
+
+  img {
+    object-fit: contain;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 459px;
+    height: 959px;
+    overflow: hidden;
+    background-image: url("/backgroundFirstVideo.webp");
+    background-size: cover;
+  }
+}
+
+.crossSection {
+  padding-bottom: 100px;
+  background: #1e1c1d;
+}
+
+.pinkRow {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background: #fe0098;
+  backdrop-filter: blur(9.798324584960938px);
+  width: 100%;
+  padding-block: 18px;
+  transform: rotate(5deg);
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  z-index: 10;
+
+  img {
+    width: 15.677px;
+    height: 15.677px;
+    object-fit: cover;
+  }
+
+  .marquee {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+    animation: scrolling-left 20s linear infinite;
+
+    span {
+      color: #fff;
+      font-family: Syne;
+      font-size: 0.73488rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 0.82675rem; /* 112.5% */
+      letter-spacing: 0.00513rem;
+    }
+  }
+
+  .marqueeStyle {
+    display: inline-block;
+  }
+}
+
+.whiteRow {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background: #fff;
+  backdrop-filter: blur(9.798324584960938px);
+  width: 100%;
+  padding-block: 18px;
+  transform: rotate(-5deg);
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  margin-top: -15px;
+  filter: blur(1.2247905731201172px);
+
+  img {
+    width: 15.677px;
+    height: 15.677px;
+    object-fit: cover;
+  }
+
+  .marquee {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+    animation: scrolling-right 20s linear infinite;
+
+    span {
+      color: #000;
+      font-family: Syne;
+      font-size: 0.73488rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 0.82675rem; /* 112.5% */
+      letter-spacing: 0.00513rem;
+    }
+  }
+
+  .marqueeStyle {
+    display: inline-block;
+  }
+}
+
+@keyframes scrolling-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@keyframes scrolling-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
