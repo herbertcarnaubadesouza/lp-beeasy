@@ -4,7 +4,7 @@ export default function FirtVideo() {
   return (
     <>
       <section className={styles.container}>
-        <img src="/foto1.webp" />
+        <img src="/foto1Td.svg" />
       </section>
       <div className={styles.crossSection}>
         <div className={styles.pinkRow}>

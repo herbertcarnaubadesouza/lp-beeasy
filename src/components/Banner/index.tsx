@@ -43,7 +43,7 @@ export default function Banner() {
       <div className={styles.depoimentsSection}>
         <p>Mais de 284 mil clientes satisfeitos</p>
         <div className={styles.rowDepoiments}>
-          <img src="/depoimentsBeeasy.webp" />
+          <img src="/depoimentsBeeasy.svg" />
           <div className={styles.numberCouter}>{count}k</div>
         </div>
       </div>
