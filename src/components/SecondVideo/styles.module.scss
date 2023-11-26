@@ -1,0 +1,76 @@
+.container {
+  padding-inline: 20px;
+  background: #f70293;
+  padding-block: 110px;
+
+  .divVideo {
+    position: relative;
+    z-index: 1;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -20px;
+      left: 20px;
+      right: 10px;
+      bottom: 20px;
+      z-index: -1; // The pseudo-element should be behind the video
+      border-radius: 42px; // Match the video border-radius
+      background: linear-gradient(
+        180deg,
+        rgba(255, 236, 0, 1) 0%,
+        rgba(255, 236, 0, 1) 100%
+      );
+      pointer-events: none;
+    }
+  }
+
+  video {
+    width: 90%;
+    height: 474px;
+    border-radius: 42px;
+    object-fit: cover;
+  }
+
+  h2 {
+    color: #fff;
+    margin-top: 67px;
+    font-family: Syne;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem; /* 166.667% */
+    text-transform: uppercase;
+
+    span {
+      color: #fff301;
+    }
+  }
+
+  p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-top: 32px;
+    margin-bottom: 72px;
+  }
+
+  button {
+    width: 100%;
+    padding-block: 23px;
+    border: none;
+    color: var(--brand-black, #1c1c1c);
+    font-family: Syne;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0.91431rem; /* 91.429% */
+    text-transform: uppercase;
+    border-radius: 14.927px 1.493px;
+    background: var(--brand-gold-light, #fff301);
+    box-shadow: 0px 4.47817px 11.19543px 0px rgba(224, 167, 48, 0.3);
+  }
+}

@@ -1,6 +1,7 @@
 import Banner from "@/components/Banner";
 import Carrossel from "@/components/CarrosselProducts";
 import FirtVideo from "@/components/FirstVideoSection";
+import SecondVideo from "@/components/SecondVideo";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Banner />
       <FirtVideo />
       <Carrossel />
+      <SecondVideo />
     </>
   );
 }

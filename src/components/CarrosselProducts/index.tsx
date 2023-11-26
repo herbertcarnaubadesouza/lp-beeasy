@@ -42,7 +42,7 @@ export default function Carrossel() {
         pagination={{
           clickable: true,
         }}
-        modules={[Autoplay]} // Include the Autoplay and Pagination modules
+        modules={[Autoplay]}
         className={styles.swiperContainer}
       >
         {slideItems.map((item: any, index: number) => (
