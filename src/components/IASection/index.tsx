@@ -3,6 +3,7 @@ import styles from "./styles.module.scss";
 export default function IASection() {
   return (
     <section className={styles.container}>
+      <img className={styles.IAimage} src="/IA.webp" />
       <div className={styles.content}>
         <h2>
           Como a <span>inteligência artificial</span> pode ajudar

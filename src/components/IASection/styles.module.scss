@@ -1,15 +1,15 @@
 .container {
-  background-image: url("/backgroundIA.webp");
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100%;
+  background: #0d0d0d;
+
+  .IAimage {
+    width: 100%;
+    height: 525px;
+    object-fit: cover;
+  }
 }
 
 .content {
   padding-inline: 20px;
-  padding-top: 463px;
 
   h2 {
     color: #fff;
