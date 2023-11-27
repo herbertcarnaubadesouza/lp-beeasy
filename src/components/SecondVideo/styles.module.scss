@@ -14,8 +14,8 @@
       left: 20px;
       right: 10px;
       bottom: 20px;
-      z-index: -1; // The pseudo-element should be behind the video
-      border-radius: 42px; // Match the video border-radius
+      z-index: -1;
+      border-radius: 42px;
       background: linear-gradient(
         180deg,
         rgba(255, 236, 0, 1) 0%,
