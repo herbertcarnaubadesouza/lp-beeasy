@@ -3,6 +3,7 @@ import Carrossel from "@/components/CarrosselProducts";
 import FirtVideo from "@/components/FirstVideoSection";
 import IASection from "@/components/IASection";
 import SecondVideo from "@/components/SecondVideo";
+import SliderComponent from "@/components/Slider";
 import TestSection from "@/components/TestSection";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <SecondVideo />
       <TestSection />
       <IASection />
+      <SliderComponent />
     </>
   );
 }
