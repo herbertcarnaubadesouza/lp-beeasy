@@ -1,0 +1,56 @@
+.container {
+  padding-inline: 20px;
+  background: #f70293;
+  padding-block: 42px;
+}
+.title {
+  h1 {
+    color: #fff;
+    font-family: Syne;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    span {
+      color: #fff301;
+
+      font-family: Syne;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 700;
+    }
+  }
+}
+.undertitle {
+  p {
+    color: #fff;
+
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.button {
+  margin-top: 32px;
+  button {
+    padding: 13.435px 41.796px;
+    height: 56px;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    border-radius: 14.927px 1.493px;
+    background: var(--brand-gold-light, #fff301);
+    box-shadow: 0px 4.47817px 11.19543px 0px rgba(224, 167, 48, 0.3);
+    color: var(--brand-black, #1c1c1c);
+
+    font-family: Syne;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+  }
+}
+.content {
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+}

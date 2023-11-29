@@ -1,0 +1,33 @@
+.container {
+  background: #1e1c1d;
+  padding-inline: 20px;
+  padding-block: 74px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  h1 {
+    color: #fff;
+
+    font-family: Syne;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  span {
+    color: #fff301;
+    font-family: Syne;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  p {
+    color: #fff;
+
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+}

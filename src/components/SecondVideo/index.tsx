@@ -1,5 +1,5 @@
-import styles from "./styles.module.scss";
-
+import styles from './styles.module.scss';
+import Button from '../Button';
 export default function SecondVideo() {
   return (
     <section className={styles.container}>
@@ -19,7 +19,7 @@ export default function SecondVideo() {
         personalizados de acordo com o seu estilo contando com a qualidade e
         logística da BEEASY!
       </p>
-      <button>criar minha loja</button>
+      <Button />
     </section>
   );
 }

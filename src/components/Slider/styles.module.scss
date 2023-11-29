@@ -1,0 +1,127 @@
+.background {
+  width: 100%;
+  padding-top: 90px;
+  background: linear-gradient(#0d0d0d 50%, #f70293 50%);
+}
+.container {
+  padding-inline: 20px;
+  border-radius: 29.79px 2.483px;
+  background: #fff301;
+  padding-block: 42px;
+  margin-inline: 20px;
+}
+.title {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  h1 {
+    color: #1c1a1d;
+
+    font-family: Syne;
+    font-size: 1.24125rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+.undertitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  p {
+    color: #222;
+
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+  }
+  h2 {
+    color: #222;
+
+    text-align: right;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+.slidertitle {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h2 {
+    color: #222;
+
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  h1 {
+    color: #222;
+
+    text-align: right;
+    font-family: Poppins;
+    font-size: 1.24125rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+.slider {
+  border-radius: 27.804px;
+  background: rgba(247, 2, 147, 0.4);
+  height: 3.476px;
+}
+.divisor {
+  margin-top: 27px;
+  height: 0.497px;
+  opacity: 0.2;
+  background: #f70293;
+}
+.underdivisor {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  p {
+    color: #222;
+
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+  }
+  h2 {
+    color: #222;
+
+    text-align: right;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+.total {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  p {
+    color: #222;
+
+    font-family: Poppins;
+    font-size: 0.86888rem;
+    font-style: normal;
+    font-weight: 500;
+  }
+  h2 {
+    color: #222;
+
+    text-align: right;
+    font-family: Poppins;
+    font-size: 1.4895rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+}

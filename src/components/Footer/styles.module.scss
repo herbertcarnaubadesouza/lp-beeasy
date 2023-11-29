@@ -1,0 +1,18 @@
+.container {
+  padding-inline: 20px;
+  background: #fff301;
+  padding-block: 35px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.text {
+  p {
+    color: #222;
+
+    font-family: Syne;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+}

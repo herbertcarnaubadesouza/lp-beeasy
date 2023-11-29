@@ -1,0 +1,33 @@
+.button {
+  margin-top: 10px;
+  button {
+    border-color: #fff;
+    background: none;
+    border: none;
+    color: #fff;
+    font-family: Syne;
+    font-size: 0.83356rem;
+    font-style: normal;
+    font-weight: 500;
+    opacity: 0.6;
+
+    &.open {
+      color: var(--brand-gold-light, #fff301);
+    }
+  }
+
+  p {
+    margin-top: 20px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 0.60625rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.divisor {
+  opacity: 0.6;
+  background: #fff;
+  height: 1px;
+  margin-top: 15px;
+}

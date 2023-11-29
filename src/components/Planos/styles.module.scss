@@ -1,0 +1,123 @@
+.container {
+  padding-inline: 20px;
+  background: #fff;
+  padding-top: 100px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.title {
+  h1 {
+    color: var(--brand-black, #1c1c1c);
+    text-align: center;
+    font-family: Syne;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    span {
+      color: var(--brand-black, #1c1c1c);
+      font-family: Syne;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 800;
+    }
+  }
+}
+.undertitle {
+  p {
+    color: #222;
+
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
+.switch {
+  width: 243px;
+  height: 44.097px;
+  flex-shrink: 0;
+  border-radius: 22.021px;
+  background: rgba(51, 51, 51, 0.3);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.switchBackground {
+  width: 100%;
+  height: 100%;
+  border-radius: 22.021px;
+  background: rgba(51, 51, 51, 0.3);
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.switchButton {
+  width: 121.5px;
+  height: 44.097px;
+  flex-shrink: 0;
+  border-radius: 22.021px;
+  background: var(--brand-gold-light, #fff301);
+  box-shadow: 0px 5.00468px 7.00655px 0px rgba(82, 67, 194, 0.23);
+  position: absolute;
+  left: 0;
+  transition: transform 0.3s ease;
+  position: absolute;
+}
+.switch.active .switchButton {
+  transform: translateX(100%);
+  background: var(--brand-gold-light, #fff301);
+}
+.leftText,
+.rightText {
+  padding-inline: 20px;
+  color: #1c1a1d;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-family: Syne;
+  font-size: 0.62556rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.leftText {
+  position: absolute;
+  left: 10px;
+}
+
+.rightText {
+  position: absolute;
+  right: 10px;
+}
+.payment {
+  padding-top: 64px;
+  background-color: #fff;
+  padding-inline: 20px;
+  justify-content: center;
+  display: flex;
+  gap: 25px;
+}
+.underpayment {
+  padding-top: 20px;
+  background-color: #fff;
+  padding-inline: 20px;
+  justify-content: center;
+  display: flex;
+  color: var(--brand-black, #1c1c1c);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 100px;
+}

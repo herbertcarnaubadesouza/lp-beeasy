@@ -1,0 +1,27 @@
+.container {
+  padding-inline: 20px;
+  background: #1e1c1d;
+  padding-block: 42px;
+}
+.content {
+  padding-block: 50px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  h1 {
+    color: var(--white, #fff);
+    font-family: Syne;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  p {
+    color: var(--white, #fff);
+    font-family: Poppins;
+    font-size: 0.80844rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
